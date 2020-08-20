@@ -1,0 +1,60 @@
+{
+  "name": "agent-bot",
+  "version": "5.4.5",
+  "main": "index.js",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "@google-cloud/text-to-speech": "^3.1.0",
+    "ascii-table": "0.0.9",
+    "axios": "^0.19.2",
+    "better-sqlite3": "^7.1.0",
+    "canvacord": "^3.0.9",
+    "canvas": "^2.6.1",
+    "capitalize": "^2.0.3",
+    "common-tags": "^1.8.0",
+    "cross-env": "^7.0.2",
+    "dateformat": "^3.0.3",
+    "dblapi.js": "^2.4.1",
+    "discord.js": "github:discordjs/discord.js",
+    "dotenv": "^8.2.0",
+    "ffmpeg-static": "^4.2.6",
+    "is-url": "^1.2.4",
+    "jimp": "^0.16.0",
+    "ksoft.js": "^3.1.4",
+    "mathjs": "^7.1.0",
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31",
+    "ms": "^2.1.2",
+    "nodemon": "^2.0.4",
+    "novelcovid": "^3.0.0",
+    "pretty-ms": "^7.0.0",
+    "public-ip": "^4.0.2",
+    "quick.db": "^7.1.1",
+    "quick.eco": "^3.0.1",
+    "random-number-csprng": "^1.0.2",
+    "relevant-urban": "^2.0.0",
+    "snowshot": "^1.0.6",
+    "string-similarity": "^4.0.2",
+    "twemoji-parser": "^13.0.0",
+    "usa-states": "0.0.5",
+    "vultrex.haste": "^1.0.1",
+    "weather-js": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "cross-env TYPE_RUN=ci node index.js",
+    "dev": "cross-env TYPE_RUN=dev nodemon index.js",
+    "build": "cross-env TYPE_RUN=production node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phamleduy04/agentbot-master.git"
+  },
+  "author": "Duy Pham",
+  "license": "(GPL-3.0 OR GPL-2.0)",
+  "bugs": {
+    "url": "https://github.com/phamleduy04/agentbot-master/issues"
+  },
+  "homepage": "https://github.com/phamleduy04/agentbot-master#readme",
+  "description": "Discord bot"
+}
