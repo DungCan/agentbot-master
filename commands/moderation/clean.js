@@ -14,5 +14,5 @@ module.exports = {
             await message.channel.bulkDelete(messages, true);
             await message.channel.send('👍');
         });
-    },
+    }
 };
